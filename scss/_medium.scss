@@ -1,0 +1,25 @@
+/* NAVIGATION STUFF GOES HERE  */
+nav button {display: none;}
+#primaryNav{display: flex;}
+nav{
+    ul{
+        margin-left: 2%;
+        border-left: 1px solid rgba(255,255,255,0.1);
+    }
+    ul li {
+        border-right: 1px solid rgba(255,255,255,0.1);
+    }
+    ul li a {
+        border: none;
+        font-size: 1rem;
+        padding: .9rem 1.2rem;
+        color: white;
+        transition: background 0.3s linear;
+        -webkit-transition: background 0.3s linear;
+    }
+    ul li a:hover {background: darken($menuColor, 5%);} 
+}
+
+.hero div h3{
+    font-size: 2.5rem;
+}
